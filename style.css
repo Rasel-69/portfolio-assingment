@@ -9,7 +9,6 @@ body{
 }
 .sec1-half-width{
     width: 50%;
-    
     padding-left: 104px;
 }
 .sec1-half-width>img{
@@ -85,7 +84,7 @@ margin-top: 90px;
 .section-3{
     display: flex;
     margin-top: 150px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 .sec3-half-width{
     width: 50%;
@@ -100,10 +99,28 @@ margin-top: 90px;
     text-align: justify;
     margin-bottom: 40px;
 }
-.sec3-half-width>a{
+.middle-button{
     padding: 10px 60px;
     background-image: linear-gradient(rgb(113, 248, 113),rgb(149, 253, 128));
-    border-radius: 5px;
+    border-radius: 6px;
     text-decoration: none;
-    color:rgb(10, 10, 10);
+    color: rgb(3, 3, 3);
+}
+
+/*section-4 style start from here */
+.section-4{
+    display: flex;
+    margin-top: 100px;
+}
+.sec4-half-width{
+    width: 50%;
+    padding-left: 130px;
+}
+.sec4-half-width>p{
+    text-align: justify;
+    margin-bottom: 30px;
+}
+.sec4-half-width>img{
+    width: 70%;
+    padding-left: 50px;
 }
