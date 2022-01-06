@@ -1,6 +1,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 .section-1{
@@ -124,3 +125,45 @@ margin-top: 90px;
     width: 70%;
     padding-left: 50px;
 }
+
+
+/*contact section style start here */
+.contact{
+    text-align: center;
+    background-image: radial-gradient(rgb(250, 209, 209),rgb(255, 240, 243));
+    height: 400px;
+    width: 90%;
+    margin:0px auto;
+}
+.contact form{
+    margin-top: 20px;
+}
+.contact form input{
+    width: 30%;
+    height: 25px;
+    margin:5px 0;
+    outline: none;
+    border-radius: 5px;
+}
+.submit-button{
+    padding:6px 30px;
+    font-size: 18px;
+    margin-top: 40px;
+    background-image: linear-gradient(rgba(164, 255, 250, 0.815),rgb(183, 241, 243));
+    border-radius: 7px;
+}
+
+/*Footer section style start from here */
+footer{
+    height: 150px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Prompt', sans-serif;
+}
+.orange-color{
+    color:rgb(255, 188, 2);
+}
+
+
