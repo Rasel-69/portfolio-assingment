@@ -51,6 +51,7 @@ h1{
     width: 36%;
     margin:50px auto;
     color:rgb(108, 229, 238);
+    
 }
 .section-2-item{
     display: flex;
@@ -60,6 +61,7 @@ border-radius: 20px;
 width: 23%;
 padding: 15px;
 margin-left: 105px;
+margin-top: 90px;
 }
 .sec2-item-width>p{
     text-align: justify;
@@ -79,3 +81,29 @@ margin-left: 105px;
 }
 
 /*section-3 style start from here */
+
+.section-3{
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.sec3-half-width{
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 50px;
+}
+.sec3-half-width>img{
+    width: 60%;
+    padding-left: 139px;
+}
+.sec3-half-width>p{
+    text-align: justify;
+    margin-bottom: 40px;
+}
+.sec3-half-width>a{
+    padding: 10px 60px;
+    background-image: linear-gradient(rgb(113, 248, 113),rgb(149, 253, 128));
+    border-radius: 5px;
+    text-decoration: none;
+    color:rgb(10, 10, 10);
+}
